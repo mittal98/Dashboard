@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="d-flex flex-direction h-100 ">
+        <header class="header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between  align-items-center">
+                    <!-- logo -->
+                    <div>
+                        <label for="togglesidebar">
+                            <span class="icon fa-regular fa-clone"></span>
+                        </label>
+                    </div>
+                    <!-- searchbar -->
+                    <div class="search-bar-wrapper">
+                        <label for="searchbar">
+                            <span class="fa fa-search icon"></span></label>
+                        <input type="text" id="searchbar" name="search" placeholder="Search for transaction,items etc"
+                            name="search2">
+                        <button class="btn btn-primary ">search</button>
+                    </div>
+                </div>
+                <!-- action -->
+                <div>
+                    <ul class="d-flex action-bar align-items-center">
+                        <a href="" class="notification">
+                            <span class="icon fa-solid fa-message"></span>
+                        </a>
+                        <a href="" class="notification">
+                            <span class="icon fa-solid fa-bell"></span>
+                        </a>
+                        <a class="dropdown d-flex align-items-center">
+                            <div class="profile-wrap">
+                                <img src="../assets/images/download.jpg" alt="profile-pic">
+                            </div>
+                        </a>
+                        <a href="">
+                            <span class=" icon fa-solid fa-caret-down "></span>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="d-flex flex-grow-1 overflow-hidden parent">
+            <input type="checkbox" id="togglesidebar">
+            <!-- aside -->
+            <aside class="sidebar">
+                <div class="d-flex flex-direction justify-content-between h-100 aside">
+
+                    <ul class="nav-list">
+                        <li class="nav-item"> <a href="" class="nav-link active"><span
+                                    class="icon fa-solid fa-table-columns"></span>
+                                <span class="nav-text">search</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"> <a href="" class="nav-link active"><span class="icon fa fa-bell"></span>
+                                <span class="nav-text">alert</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"> <a href="" class="nav-link active"><span class="icon fa fa-tag"></span>
+                                <span class="nav-text">tag</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"> <a href="" class="nav-link active"><span class="icon fa fa-gear"></span>
+                                <span class="nav-text">setting</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"> <a href="" class="nav-link active"><span
+                                    class="icon fa fa-address-book"></span>
+                                <span class="nav-text">tips</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-list mb-4">
+                        <li class="nav-item"> <a href="" class="nav-link active"><span class="icon fa fa-trash"></span>
+                                <span class="nav-text">trash</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"> <a href="" class="nav-link active"><span
+                                    class="icon fa fa-sign-out"></span>
+                                <span class="nav-text">logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- main -->
+            <main id="main" class="flex-grow-1 color overflow-auto  ">
+                <h2>Dashboard</h2>
+                <div class="d-flex  card-row">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="icon-wrapper bg-primary-light">
+                                <span class="icon fa-solid fa-eye"></span>
+                            </div>
+                            <div>
+                                <h4>total views</h4>
+                                <h2>308.402</h2>
+                                <p>start from 1st jan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="icon-wrapper bg-success-light">
+                                <span class="fa-solid fa-user-group"></span>
+                            </div>
+                            <div>
+                                <h4>total views</h4>
+                                <h2>308.402</h2>
+                                <p>start from 1st jan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="icon-wrapper bg-primary-light">
+                                <span class="icon fa-solid fa-eye"></span>
+                            </div>
+                            <div>
+                                <h4>total views</h4>
+                                <h2>308.402</h2>
+                                <p>start from 1st jan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="icon-wrapper bg-success-light ">
+                                <span class=" fa-solid fa-user-group"></span>
+                            </div>
+                            <div>
+                                <h4>total views</h4>
+                                <h2>308.402</h2>
+                                <p>start from 1st jan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
